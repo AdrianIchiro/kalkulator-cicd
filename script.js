@@ -17,6 +17,7 @@ function isOperator(value) {
 
 function clearDisplay() {
   display.value = "";
+  let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
 }
 
 function deleteLast() {
@@ -48,12 +49,6 @@ function calculateResult() {
   }
   const result = performCalculation(display.value);
   display.value = result;
-}
-
-function clearDisplay() {
-  display.value = "";
-
-  let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
 }
 
 // Ekspor fungsi untuk pengujian jika menggunakan modul Node.js (opsional untuk setup sederhana ini)
